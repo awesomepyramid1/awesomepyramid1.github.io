@@ -318,7 +318,7 @@ var QuizUI = {
     },
     displayScore: function() {
         var gameOverHTML = "<h1>Gefeliciteerd!</h1>";
-        gameOverHTML += "<h1>Je score is " + quiz.score +"</h1>" + "<br>"+"<br>"+" <h2>De goede antwoorden zijn: "+ "<br>"+"<br>"+"1) Anubis " +"<br>"+ "2) Egyptenaren geloofden dat de ziel van een mens onsterfelijk is" +"<br>"+" 3) Een dienaar is een soort bediende "+"<br>"+"4) Jakhals</h2>";
+        gameOverHTML += "<h1>Je score is " + quiz.score +"</h1>" + "<br>"+" <h2>De goede antwoorden zijn: "+ "<br>"+"<br>"+"1) Anubis " +"<br>"+ "2) Egyptenaren geloofden dat de ziel van een mens onsterfelijk is" +"<br>"+" 3) Een dienaar is een soort bediende "+"<br>"+"4) Jakhals</h2>";
         this.populateIdWithHTML("quiz", gameOverHTML);
     },
 
