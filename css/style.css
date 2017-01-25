@@ -1,3 +1,4 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -85,6 +86,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #b39062;
   color: white;
 }
+
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
   margin: 0;
@@ -240,11 +242,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-video {
   overflow: hidden;
 }
-@media screen and (max-width: 992px) {
-  .fh5co-video {
-    height: 450px;
-  }
-}
+
 .fh5co-video a {
   z-index: 1001;
   position: absolute;
@@ -1062,13 +1060,13 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   transition: all .2s ease-out;
 }
-.fh5co-nav-toggle.fh5co-nav-white > i {
+/*.fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
   background: #000;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
   background: #000;
-}
+}*/
 
 .fh5co-nav-toggle i::before {
   top: -7px;
@@ -1836,8 +1834,7 @@ h2, .headline-secondary, .headline-secondary--grouped {
   position: relative;
   padding: 0.625em;
   letter-spacing: 1px;
-  background: #39add1;
-  background: linear-gradient(45deg, rgba(94, 206, 127, 0.8) 0%, #39add1 100%); }
+  ; }
 
 .menu {
   margin-top: 1.25em; }

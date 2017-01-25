@@ -318,7 +318,7 @@ var QuizUI = {
     },
     displayScore: function() {
         var gameOverHTML = "<h1>Gefeliciteerd!</h1>";
-        gameOverHTML += "<h2> Je score is: " + quiz.score + "</h2>";
+        gameOverHTML += "<h1>Je score is " + quiz.score +"</h1>" + "<br>"+"<br>"+" <h2>De goede antwoorden zijn: "+ "<br>"+"<br>"+"1) Anubis " +"<br>"+ "2) Egyptenaren geloofden dat de ziel van een mens onsterfelijk is" +"<br>"+" 3) Een dienaar is een soort bediende "+"<br>"+"4) Jakhals</h2>";
         this.populateIdWithHTML("quiz", gameOverHTML);
     },
 
@@ -341,10 +341,10 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("Hoe heet de god van de dood?", [ "Isis", "Pegasus", "Anubis", "Ik weet het niet" ], "Anubis"),
-    new Question("Waarom pakten de oude Egyptenaren overleden mensen in?", ["Egyptenaren gebruikten de mummies als afschrikmiddel  tegen rovers","Egyptenaren geloofden dat de ziel van een mens onsterfelijk is", "Egyptenaren hoopten zo hub macht te tonen", "Ik weet het niet"], "Egyptenaren geloofden dat de ziel van een mens onsterfelijk is"),
-    new Question("Wat is een dienaar?", ["Een dienaar is een soort bediende","Een dienaar is een soort groente", "Een dienaar is een kat", "Ik weet het niet"], "Een dienaar is een soort bediende"),
-    new Question("Wat voor dier was de god van de dood?", ["Koala","Jakhals", "Krokodil", "Muis"], "Jakhals"),
+    new Question("Vraag 1: Hoe heet de god van de dood?", [ "Isis", "Pegasus", "Anubis", "Ik weet het niet" ], "Anubis"),
+    new Question("Vraag 2: Waarom pakten de oude Egyptenaren overleden mensen in?", ["Egyptenaren gebruikten de mummies als afschrikmiddel  tegen rovers","Egyptenaren geloofden dat de ziel van een mens onsterfelijk is", "Egyptenaren hoopten zo hub macht te tonen", "Ik weet het niet"], "Egyptenaren geloofden dat de ziel van een mens onsterfelijk is"),
+    new Question("Vraag 3: Wat is een dienaar?", ["Een dienaar is een soort bediende","Een dienaar is een soort groente", "Een dienaar is een kat", "Ik weet het niet"], "Een dienaar is een soort bediende"),
+    new Question("Vraag 4: Wat voor dier was de god van de dood?", ["Koala","Jakhals", "Krokodil", "Muis"], "Jakhals"),
 ];
 
 //Create Quiz
