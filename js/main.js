@@ -1,5 +1,11 @@
 ;(function () {
 
+    $("#midd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#middl").offset().top
+    }, 2000);
+    });
+
 	'use strict';
 
 	var isMobile = {
@@ -352,3 +358,7 @@ var quiz = new Quiz(questions);
 
 //Display Quiz
 QuizUI.displayNext();
+
+
+
+
